@@ -1,6 +1,8 @@
 
 create a boilerplate for react dev.
 
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
 Architecture updated and passport tidied and trimmed down from [latest project](https://github.com/chingu-voyage3/bears-21).
 
 * node.js
@@ -9,10 +11,10 @@ Architecture updated and passport tidied and trimmed down from [latest project](
 * mongodb & mongoose
 * passport.js (passport-local)
 * redux
+* linting
 * unit testing
 * image upload (for user profile)
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 # setup
 
@@ -34,6 +36,14 @@ npm install
 ```
 3. startup mongo (`mongod`)
 4. npm run develop
+
+## lint
+
+npm run lint
+
+## test
+
+npm run test
 
 ## production (e.g. for cloud9)
 1. clone repo
