@@ -12,8 +12,8 @@ export default Footer;
 
 const styles = StyleSheet.create({
   footer: {
-    color: '#715c57',
-    padding: '2rem',
+    color: 'white',
+    padding: '1rem',
     backgroundColor: '#dae6f1',
     background: 'rgba(132,183,230,1.0)'
   },
